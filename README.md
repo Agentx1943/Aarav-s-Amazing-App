@@ -1,2 +1,3 @@
-# Aarav-s-Amazing-App
-Quick, basic encoding to seemingly random characters
+# Aarav's Amazing App
+
+Quick basic encoding (my first try)
