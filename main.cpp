@@ -102,7 +102,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam) 
 				char character;
 				for (int i = 0; i < sizeof(out); i++) {
 					out[i] = inp[i];
-					val = (int)out[i] + ((i+(i%5))+1);
+					val = (int)out[i] + (((i%5))+1);
 					character = (char)val;
 					result[i] = character;
 				}
@@ -124,7 +124,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam) 
 				char character;
 				for (int i = 0; i < sizeof(out); i++) {
 					out[i] = inp[i];
-					val = (int)out[i] - ((i+(i%5))+1);
+					val = (int)out[i] - (((i%5))+1);
 					character = (char)val;
 					result[i] = character;
 				}
